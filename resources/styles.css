@@ -1,0 +1,50 @@
+  body {
+    background-color: orange;
+  }
+  h1{
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    width: 90%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  li a {
+    display: inline-block;
+    width: 23%;
+    padding:0px 16px;
+    text-align: center;
+  }
+  li {
+    display: inline;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;
+  } 
+  li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  div.navBar{
+    align-items: center;
+  }
+
+  nav.navBar{
+    display: table;
+    text-align: center;
+    width: 90%
+   
+   }
+   nav.navBar ul{
+    display: table-row;
+   }
+   
+   nav.navBar ul li {
+    display: table-cell;
+    column-width: 25%;
+   }
