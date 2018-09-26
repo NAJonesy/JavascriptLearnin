@@ -4,6 +4,7 @@
   h1{
     text-align: center;
   }
+  /*
   ul {
     list-style-type: none;
     margin: 0;
@@ -33,7 +34,7 @@
   div.navBar{
     align-items: center;
   }
-
+  */
   nav.navBar{
     display: table;
     text-align: center;
@@ -47,4 +48,27 @@
    nav.navBar ul li {
     display: table-cell;
     column-width: 25%;
+   }
+   nav.navBarul li a{
+     display: block;
+   }
+   table.formTable{
+     align-self: center;
+     border-color: #555;
+     width: 50%;
+     border-width: 1px;
+
+   }
+   table.formTable tr :first-child{
+     text-align: right;
+   }
+   table.formTable tr th{
+     border-bottom: #555;
+     border-bottom-width: 2px;
+     text-align: center;
+   }
+   footer{
+     text-align: center;
+     border-top: 5px;
+     border-top-color: #555;
    }
