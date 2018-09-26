@@ -34,7 +34,7 @@
   div.navBar{
     align-items: center;
   }
-  */
+  
   nav.navBar{
     display: table;
     text-align: center;
@@ -52,6 +52,32 @@
    nav.navBarul li a{
      display: block;
    }
+   */
+   li a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+   nav.navBar{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    width: 100%
+   
+   }
+   nav.navBar ul{
+     display: block;
+     list-style-type: none;
+    background-color: antiquewhite;
+    width: 90%;
+   }
+   
+   nav.navBar ul li {
+    display: inline-block;
+    width: 22.5%;
+   }
+   nav.navBar ul li a{
+    display: block;
+  }
    table.formTable{
      align-self: center;
      border-color: #555;
@@ -66,6 +92,9 @@
      border-bottom: #555;
      border-bottom-width: 2px;
      text-align: center;
+   }
+   hr{
+     height: 5px;
    }
    footer{
      text-align: center;
