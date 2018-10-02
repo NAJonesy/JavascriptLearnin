@@ -1,29 +1,46 @@
 import React from 'react';
 //import 'myFunction()' from 'https://www.w3schools.com/js/myScript1.js';
-const style = {
-    footer: {
-        backgroundColor: white,
-    },
+// const style = {
+//     footer: {
+//         backgroundColor: white,
+//     },
 
-  body: {
-    backgroundColor : 8800,
-  },
-  h1: {
-    backgroundColor: 8723,
-  },
-  p: {
-    text: white,
-    weight: bold,
-  },
-  button: {
-    backgroundColor: aqua,
-    color: black,
-    size: 1,
-    weight: bolder,
+//   body: {
+//     backgroundColor : 8800,
+//   },
+//   h1: {
+//     backgroundColor: 8723,
+//   },
+//   p: {
+//     text: white,
+//     weight: bold,
+//   },
+//   button: {
+//     backgroundColor: aqua,
+//     color: black,
+//     size: 1,
+//     weight: bolder,
 
+//   }
+
+// };
+
+const styles = StyleSheet.create({
+  container: {
+   flex: 1,
+   justifyContent: 'center',
+  },
+  buttonContainer: {
+    margin: 20
+  },
+  alternativeLayoutButtonContainer: {
+    margin: 20,
+    flexDirection: 'row',
+    justifyContent: 'space-between'
   }
+});
 
-};
+
 var person = {
     firstName: "John",
     lastName : "Doe",
